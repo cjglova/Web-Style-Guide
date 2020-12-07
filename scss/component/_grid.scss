@@ -1,0 +1,72 @@
+/*========== Grid System ==========*/
+
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $grid-color-one;
+}
+
+.theme.col-2 {
+  background-color: $grid-color-two;
+}
+
+.theme.col-3 {
+  background-color: $grid-color-three;
+}
+
+.theme.col-4 {
+  background-color: $grid-color-four;
+}
+
+.theme.col-5 {
+  background-color: $grid-color-five;
+}
+
+.theme.col-6 {
+  background-color: $grid-color-six;
+}
+
+.theme.col-7 {
+  background-color: $grid-color-seven;
+}
+
+.theme.col-8 {
+  background-color: $grid-color-eight;
+}
+
+.theme.col-9 {
+  background-color: $grid-color-nine;
+}
+
+.theme.col-10 {
+  background-color: $grid-color-ten;
+}
+
+.theme.col-11 {
+  background-color: $secondary-color;
+}
+
+.theme.col-12 {
+  background-color: $grid-color-eleven;
+}
+
+.card {
+  flex-basis: 100%;
+}

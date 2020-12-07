@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $secondary-color;
+}
+
+.error {
+  background-color: $grid-color-nine;
+}
+
+.info {
+  background-color: $grid-color-one;
+}
+
+.success {
+  background-color: $grid-color-ten;
+}
+
+.warning {
+  background-color: $grid-color-two;
+}
